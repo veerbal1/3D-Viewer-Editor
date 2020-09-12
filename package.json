@@ -1,0 +1,42 @@
+{
+  "name": "3d-viewer",
+  "version": "1.0.0",
+  "description": "3D viewer and editor for product configurator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --config webpack.config.js",
+    "build-production": "webpack --config webpack-production.config.js"
+  },
+  "author": "Manmohan Bishnoi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@webpack-cli/serve": "^0.2.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "expose-loader": "^1.0.0",
+    "file-loader": "^6.0.0",
+    "image-webpack-loader": "^6.0.0",
+    "react-hot-loader": "^4.12.20",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "babel-preset-react": "^6.24.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "three": "^0.118.3"
+  }
+}
